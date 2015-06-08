@@ -94,8 +94,8 @@ publishing {
         maven {
             url "https://api.bintray.com/maven/danielsomerfield/maven/apigee-tutorial"
             credentials {
-                username = System.getenv("rezamt")
-                password = System.getenv("Pa$$w0rd")
+                username = System.getenv("BINTRAY_USERNAME")
+                password = System.getenv("BINTRAY_PASSWORD")
             }
         }
     }
