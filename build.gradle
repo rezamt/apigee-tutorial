@@ -92,7 +92,7 @@ publishing {
 
     repositories {
         maven {
-            url "https://api.bintray.com/maven/danielsomerfield/maven/apigee-tutorial"
+            url "https://api.bintray.com/maven/rezamt/apigee-tutorial"
             credentials {
                 username = System.getenv("BINTRAY_USERNAME")
                 password = System.getenv("BINTRAY_PASSWORD")
