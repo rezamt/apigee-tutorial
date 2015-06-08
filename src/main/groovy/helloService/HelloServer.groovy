@@ -57,7 +57,8 @@ class HelloServer {
     }
 
     static def sslOnly() {
-        System.getenv("HELLO_SERVER_SSL_DISABLED") != "true"
+        // System.getenv("HELLO_SERVER_SSL_DISABLED") != "true"
+        false
     }
 
     def static addHandlerWithContext(HandlerCollection collection, String context, Handler handler) {
